@@ -1,0 +1,28 @@
+{
+  "name": "todos_project",
+  "version": "1.0.0",
+  "description": "final project",
+  "main": "main.js",
+  "author": "chinecherem and patrick",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./src/main.js"
+  },
+  "keywords": [],
+  "type": "module",
+  "dependencies": {
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mailtrap": "^4.2.0",
+    "node": "^22.18.0",
+    "pg": "^8.16.3",
+    "sequelize": "^6.37.7",
+    "zod": "^4.0.17"
+  }
+}
